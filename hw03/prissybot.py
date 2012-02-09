@@ -32,8 +32,10 @@ Prissy bot, the rude chat bot, is just mean!  It does not listen, asks obnoxious
 
 name=raw_input("Enter your name: ")
 print "PrissyBot: Hello there, "+name+"."
-greeting=raw_input(""+name+": ")
-print "PrissyBot: You mean, \""+greeting+", sir!\"" #A backslash is used to escape characters that otherwise have a special meaning.
+greeting=raw_input(name + ": ")
+#print "PrissyBot: You mean, \""+greeting+", sir!\"" #A backslash is used to escape characters that otherwise have a special meaning.
+num=int(3)
+print "You mean '%s', SIR! %i" % (greeting,num)
 print "PrissyBot: Tell me, what\'s your mother\'s name?"
 mom=raw_input(""+name+": ")
 print "PrissyBot: I knew a lady named "+mom+" once. She had a real ugly kid, though. You got any kids, "+name+"?"
