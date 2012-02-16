@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 from random import randint
 s=1
 t=int(raw_input())
