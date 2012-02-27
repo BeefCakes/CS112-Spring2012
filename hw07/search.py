@@ -32,7 +32,7 @@ while max_index >= min_index:
     if nums[mid] == input_value: #if middle value is input value
         break
 #if the middle element of nums is greater than input value
-    elif nums[mid] > input_value: #if middle is greater than input
+     elif nums[mid] > input_value: #if middle is greater than input
 #the max is redefined as being one less than the middle element, thus shifting the sub-array to the left of the middle element
         max_index = mid -1
         print "middle element is greater than value, shifting to left."

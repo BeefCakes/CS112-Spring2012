@@ -3,6 +3,7 @@ from pygame import draw
 from random import randrange
 from pygame.locals import *
 
+#position tie fighter on screen
 tie_x, tie_y = 400,300
 
 def draw_tie(surf, pos, color=(255,0,0), size=40):

@@ -9,3 +9,15 @@
 
 # def point_in_box(pt, box):
 
+def point_in_box(pt, box):
+    x1,y1 = pt
+    x,y,w,h = box
+    print "point is", pt
+    print "box is", box
+    if x1 < x or y1 < y or x1 > (x + w) or y1 > (y + h):
+        inside = False
+    else:
+        inside = True
+    print "Point inside box:", inside
+        
+point_in_box((5,7), (2,2,100,100))

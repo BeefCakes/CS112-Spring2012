@@ -11,6 +11,14 @@ import math
 
 # def distance(a, b):
 
+def distance(a, b):
+    x1,y1 = a #splits a into two variables
+    x2,y2 = b #splits b into two variables
+    d = math.sqrt((x2-x1)**2 + (y2-y1)**2) #distance formula
+    return d
+
+print "distance between (4,2) and (2,4):",
+print distance ((4,2), (2,4))
 
 # ADVANCED
 # Normalizing Vectors
