@@ -30,6 +30,34 @@
 #    >>> print a.distance(b)
 #    5
 #
+import math
+
+class Point(object):
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def distance(self, other):
+        dx = self.x - other.x #distance between first x and second x
+        dy = self.y - other.y #between first y and second 7
+        return int(math.sqrt(dx**2 + dy**2)) #pythagoras, y'all
+
+    def move(self, x, y):
+        self.x = x #resets self.x to the new x
+        self.y = y #resets self.y to new y
+        return self.x, self.y
+
+    def translate(self, x, y):
+        self.x += x #new x is added to self.x
+        self.y += y #new y is added to self.y
+        return self.x, self.y
+    
+pt1 = Point(2,5)
+pt2 = Point(7,12)
+
+print pt1.distance(pt2)
+print pt1.move(14,17)
+print pt1.translate(2,2)
 
 
 # Advanced Section:

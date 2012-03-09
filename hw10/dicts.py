@@ -16,7 +16,7 @@ manipulate python dictionaries.
 
 def freq(data):
     "calculate the frequency for each value in data"
-
+    data = {}
 
 
 # 2. Movie Reviews

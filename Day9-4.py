@@ -37,7 +37,7 @@ def move(x, y, dx, dy, bounds):
 
 pygame.init()
 screen = pygame.display.set_mode((800,600))
- #clock = pygame.time.Clock()
+clock = pygame.time.Clock()
 done = False
 screen_bounds = screen.get_rect()
 ties=[]
@@ -61,6 +61,6 @@ while not done:
         draw_tie(screen, ties[i],(color[i],color[i],color[i]))
       
     pygame.display.flip()
-    clock.tick(500)
+    clock.tick(60)
     
 print "ByeBye"
