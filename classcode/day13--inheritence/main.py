@@ -54,7 +54,7 @@ class Explodes(Sprite):
     def kill(self):
         xplo = self.explosion_type(self.rect.center, self.explosion_radius)
         Explosion.group.add(xplo)
-        Sprite.kill(self)
+         Sprite.kill(self)
 
 
 def collide_xplo_ship(xplo, ship):

@@ -1,0 +1,40 @@
+Game Pitches - Jordan Miron
+
+
+## "Chet Pootrousers and the Alien Menace"
+A shooter in which the protagonist throws his poo upwards at invading saucers, dodging both the aliens' missiles as well as his own poo as it falls back down to earth. Player must also jump over poo which lands on the ground.
+
+### Genre
+Single-screen shooter with mild platforming elements, like Space Invaders but with jumping (and poo).
+
+### Technical Hurdles
+    * jumping ability
+    * spaceship collision
+    * cutscenes...?
+    * variable poo speed
+
+
+## "Facebrain"
+Block-breaking game with a brain instead of a ball, and instead of bricks, human faces who can swallow the brain and then explode, after which a new brain is spawned from the mouth of a different face.
+
+### Genre
+Breakout-style game.
+
+### Technical Hurdles
+    * art assets
+    * animation
+    * multiple head types
+    * bouncing off walls
+
+
+## "Escape from Puppy Mountain"
+Player must traverse a path fraught with puppy-related obstacles, such as falling puppies, heel-biting puppies, and jumping puppies which can be used as platforms.
+
+### Genre
+Flip-screen platformer, similar to Pitfall.
+
+### Technical Hurdles
+    * jumping
+    * multiple screens
+    * sound...?
+    * moving platforms

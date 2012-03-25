@@ -1,0 +1,65 @@
+
+PSEUDOCODE: MAZE
+
+define player
+define boundaries
+
+while in maze:
+      go east (x+1,y)
+      if cant go east:
+      	 go north(x,y+1)
+	 if cant go south:
+	    go west(x-1,y)
+	    if cant go west:
+	       go south(x,y-1)
+	update x, y
+
+if no exit found:
+   game lose
+
+elif final location == entrance: #entrance is same as exit
+   game win!
+
+else:
+	game win!
+
+______________________________________
+
+store x & y location
+
+first move is facing +y (forward)
+
+class room
+      location
+      walls:
+	(-1,0) - T/F
+	(0,1) - T/F
+	(1,0) - T/F
+	(0,-1) - T/F
+
+while not at end:
+
+      check available directions
+
+      if # of directions == 1:
+      	 go that direction
+	 update direction facing
+	 update location
+
+      if # of directions == 2:
+      	 take option in front
+	 update direction facing
+	 update location
+
+      if # of directions  > 2:
+      	have I been here before?
+	     -if true:
+	     	 look at option taken
+		 take different option
+		 update stored room
+		 update location
+
+	     -if false:
+	     	 store room
+		 go right
+		 update location

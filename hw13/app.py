@@ -29,7 +29,7 @@ class Application(object):
     def _draw_pause(self):
         overlay = pygame.Surface(self.screen.get_size())
         overlay.set_alpha(200)
-        overlay.fill((0,0,0))
+        overlay.fill((0,0,80))
         self.screen.blit(overlay, (0,0))
 
         loc = self._paused_text.get_rect()
